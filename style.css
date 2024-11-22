@@ -1,0 +1,64 @@
+body {
+    background-color: #18FFFF;
+    background-image: url('global-currency-background_115579-405.avif');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: antiquewhite;
+    margin: 35px auto 20px;
+}
+
+.main {
+    width: 50vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+label {
+    font-size: 20px;
+}
+
+.btn {
+    width: 200px;
+}
+
+#finalAmount {
+    display: none;
+    margin: 50px auto;
+}
+
+#finalAmount h2 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+.finalValue {
+    font-family: 'Amiri', serif;
+    color: antiquewhite;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 40px;
+    }
+    #finalAmount h2 {
+        font-size: 30px;
+    }
+}
